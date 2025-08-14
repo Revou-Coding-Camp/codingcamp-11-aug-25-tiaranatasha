@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital CV - Tiara Natasha Putri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2 id="greeting"></h2>
+        <img src="foto.jpg" alt="Profile Photo">
+        <h1>Tiara Natasha Putri</h1>
+     
+    </header>
+
+    <section>
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah individu yang antusias dan adaptif dalam mengembangkan keterampilan di bidang teknologi. Memiliki pengalaman
+        dalam merancang dan membangun aplikasi berbasis web serta terlibat dalam penelitian akademik yang mengasah kemampuan
+        analisis, problem solving, dan kolaborasi tim.</p>
+    </section>
+
+    <section>
+        <h2>Pengalaman</h2>
+        <ul>
+            <li><strong>Internship - APRIL Learning Institute</strong> 
+            </li>(Jul 2024 - Aug 2024)<br/>PC assembly, IP setting,
+                Windows installation, Hexnode application installation.</li>
+            <br/>
+            (Aug 2024 - Dec 2024)<br/>Pengembangan sistem
+                inventaris berbasis web menggunakan ReactJS, TailwindCSS, PostgreSQL.
+        </ul>
+    </section>
+
+    <section>
+        <h2>Pendidikan</h2>
+        <ul>
+            <li>SDN 145 Pekanbaru </li>
+            <li>SMP 37 Pekanbaru </li>
+            <li>SMK 2 Pekanbaru </li>
+            <li>Universitas Muhammadiyah Riau - Fakultas Ilmu Komputer</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Keterampilan</h2>
+        <div class="skills">
+            <span>Front-end Developer</span>
+            <span>Edit Video</span>
+            <span>basis data (my sql)</span>
+            <span>Kerja Tim & Kolaborasi</span>
+        </div>
+    </section>
+
+    <section id="message-us">
+        <h2>Message Us</h2>
+        <div class="form-container">
+            <!-- Form -->
+            <form id="contactForm">
+                <label>Nama:</label>
+                <input type="text" id="nama" required>
+
+                <label>Tanggal Lahir:</label>
+                <input type="date" id="tanggal" required>
+
+                <label>Jenis Kelamin:</label>
+                <div class="gender">
+                    <input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki
+                    <input type="radio" name="gender" value="Perempuan"> Perempuan
+                </div>
+
+                <label>Pesan:</label>
+                <textarea id="pesan" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Output -->
+            <div id="output">
+                <p><strong>Current time:</strong> <span id="waktu"></span></p>
+                <p><strong>Nama:</strong> <span id="outNama"></span></p>
+                <p><strong>Tanggal Lahir:</strong> <span id="outTanggal"></span></p>
+                <p><strong>Jenis Kelamin:</strong> <span id="outGender"></span></p>
+                <p><strong>Pesan:</strong> <span id="outPesan"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Tiara Natasha Putri - Digital CV
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
